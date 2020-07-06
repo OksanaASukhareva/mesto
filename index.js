@@ -30,14 +30,4 @@ openPopupButton.addEventListener("click", PopupOpen);
 closePopupButton.addEventListener("click", PopupClose);
 
 submitPopupButton.addEventListener("click",PopupSubmit);
-/*
-popupContainer.addEventListener("submit", function(event){  
-    {
-     profileName.textContent = inputName.value;
-     profileSubscription.textContent = inputProfession.value;
-     event.preventDefault();
-     PopupClose();
-    }
-}
-)
-*/
+
