@@ -1,0 +1,44 @@
+@import url(./__image/elements__image.css);
+@import url(./__group/elements__group.css);
+@import url(./__text/elements__text.css);
+@import url(./__vector/elements__vector.css);
+.elements{
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:21px;
+    grid-column-gap: 18px;
+    margin-left: 199px;
+    margin-right:199px;
+    margin-top:47px;
+    overflow: hidden;
+}
+@media screen and (max-width: 1100px) {
+    .elements{       
+        margin-left: 110px;
+        margin-right:110px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .elements{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr); 
+        margin-left:40px;
+        margin-right:40px;      
+    }
+}
+@media screen and (max-width: 600px) {
+    .elements{         
+    margin-left: 19px;
+    margin-right:19px;  
+    }
+}
+@media screen and (max-width: 450px) {
+    .elements{
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 19px;
+        margin-right:19px;
+        margin-top:36px;
+    }
+}

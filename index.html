@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesto</title>
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./page/index.css">
+</head>
+
+<body class="body">
+    <div class="page">
+
+        <header class= "header">
+            <img class="header__logo" src="image/Vector-header-logo.png" alt="Лого">                
+        </header>
+
+        <section class="profile">
+            <img class="profile__avatar" src="./image/image.jpg" alt ="Аватар">
+            <div class="profile__columns">
+            <div class="profile__column">            
+                <div class="profile__information">
+                   <h1 class="profile__name">Жак-Ив Кусто</h1>
+                   <button class="profile__edit-button"></button>
+                </div>
+                <p class="profile__subscription">Исследователь океана</p>
+            </div>    
+            <button class="profile__add-button" ></button>
+          </div>          
+        </section>
+
+        <section class="elements">
+            <div class="element">
+                <img class="elements__image" src="./image/rosa-khutor.jpg" alt="Роза-Хутор">
+                <div class="elements__group">
+                  <p class="elements__text">Роза-Хутор</p>
+                  <img class="elements__vector" src="image/vector-heart.png" alt="Лайк">  
+                </div> 
+            </div>
+
+            <div class="element">
+                <img class="elements__image" src="./image/sochi.jpg" alt="Сочи">
+                <div class="elements__group">
+                  <p class="elements__text">Сочи</p>
+                  <img class="elements__vector" src="image/vector-heart.png" alt="Лайк">  
+                </div> 
+            </div>
+
+            <div class="element">
+                <img class="elements__image" src="./image/yalta.jpg" alt="Ялта">
+                <div class="elements__group">
+                  <p class="elements__text">Ялта</p>
+                  <img class="elements__vector" src="image/vector-heart.png" alt="Лайк">  
+                </div> 
+            </div>
+
+            <div class="element">
+                <img class="elements__image" src="./image/rosa-khutor.jpg" alt="">
+                <div class="elements__group">
+                  <p class="elements__text">Роза-Хутор</p>
+                  <img class="elements__vector" src="image/vector-heart.png" alt="Лайк">  
+                </div> 
+            </div>
+
+            <div class="element">
+                <img class="elements__image" src="./image/sochi.jpg" alt="Сочи">
+                <div class="elements__group">
+                  <p class="elements__text">Сочи</p>
+                  <img class="elements__vector" src="image/vector-heart.png" alt="Лайк">  
+                </div> 
+            </div>
+
+            <div class="element">
+                <img class="elements__image" src="./image/yalta.jpg" alt="Ялта">
+                <div class="elements__group">
+                  <p class="elements__text">Ялта</p>
+                  <img class="elements__vector" src="image/vector-heart.png" alt="Лайк">  
+                </div> 
+            </div>            
+        </section>
+
+        <footer class="footer">
+            <p class="footer__copywright">&copy; 2020 Mesto Russia</p>
+        </footer>    
+    </div>  
+
+    <section class="popup">
+      <form class="popup__container">
+        <button class="popup__close-button"></button>
+        <div class="popup__info">
+        <h2 class="popup__heading">Редактировать профиль</h2>
+        <input  class="popup__text_field_name" type="text" value="">
+        <input  class="popup__text_field_profession" type="text" value="">
+        </div>
+        <button type="submit" class="popup__submit-button"><h3 class="popup__submit-button_text">Сохранить</h3> </button>
+      </form>
+    </section> 
+
+    <script src="index.js"></script>
+    
+</body>
+</html>   
