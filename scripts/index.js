@@ -21,9 +21,9 @@ function PopupClose(){
 
 function PopupSubmit(){
     profileName.textContent = inputName.value;
-     profileSubscription.textContent = inputProfession.value;
-     event.preventDefault();
-     PopupClose();
+    profileSubscription.textContent = inputProfession.value;
+    event.preventDefault();
+    PopupClose();
 }
 
 openPopupButton.addEventListener("click", PopupOpen);

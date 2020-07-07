@@ -1,10 +1,10 @@
 .profile__information{
-    display:flex;
-    flex-direction:row;
-    align-items: baseline;
+  display:flex;
+  flex-direction:row;
+  align-items: baseline;
 }
 @media screen and (max-width: 770px) {
-    .profile__information{        
-        max-width:100%;
-    }
+ .profile__information{        
+     max-width:100%;
+  }
 }

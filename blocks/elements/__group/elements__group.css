@@ -1,12 +1,12 @@
 .elements__group{
-    background-color: #FFFFFF;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    padding-left:21px;
-    padding-right:30px;
-    padding-top: 7%;
-    padding-bottom:8%;
-    align-items: center;
-    border-radius: 0px 0px 10px 10px;
+  background-color: #FFFFFF;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding-left:21px;
+  padding-right:30px;
+  padding-top: 7%;
+  padding-bottom:8%;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
 }
