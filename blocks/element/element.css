@@ -1,9 +1,9 @@
 .element{
-  max-width:100%;
-  max-height:361px;
-  margin-top:0px;
-  display:grid;
-  display:flex;
+  max-width: 100%;
+  max-height: 361px;
+  margin-top: 0px;
+  display: grid;
+  display: flex;
   flex-direction: column;
   text-overflow: ellipsis;
   white-space: nowrap;

@@ -1,10 +1,10 @@
 @import url(./__logo/header__logo.css);
 .header{
-  margin-top:45px;
-  margin-left:199px;
-  margin-right:199px;
-  margin-bottom:0px;
-  display:flex;
+  margin-top: 45px;
+  margin-left: 199px;
+  margin-right: 199px;
+  margin-bottom: 0px;
+  display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   border-bottom: 1px solid #545454;
@@ -12,20 +12,20 @@
 
 @media screen and (max-width: 1100px) {
   .header{        
-    margin-left:110px;
-    margin-right:110px;     
+    margin-left: 110px;
+    margin-right: 110px;     
   }
 }
 @media screen and (max-width: 950px) {
   .header{        
-    margin-left:40px;
-    margin-right:40px;     
+    margin-left: 40px;
+    margin-right: 40px;     
   }
 }
 @media screen and (max-width: 600px) {
   .header{
-    margin-top:28px;
-    margin-left:0px;
-    margin-right:0px;
+    margin-top: 28px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }

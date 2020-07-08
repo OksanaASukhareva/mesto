@@ -1,6 +1,6 @@
 .popup__info{
-  display:flex;
-  flex-direction:column;
-  margin-left:36px;
-  margin-right:36px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 36px;
+  margin-right: 36px;
 }

@@ -16,21 +16,21 @@
 @media screen and (max-width: 1100px) {
   .elements{       
     margin-left: 110px;
-    margin-right:110px;
+    margin-right: 110px;
   }
 }
 @media screen and (max-width: 950px) {
   .elements{
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr); 
-    margin-left:40px;
-    margin-right:40px;      
+    margin-left: 40px;
+    margin-right: 40px;      
   }
 }
 @media screen and (max-width: 600px) {
   .elements{         
     margin-left: 19px;
-    margin-right:19px;  
+    margin-right: 19px;  
   }
 }
 @media screen and (max-width: 450px) {
@@ -38,7 +38,7 @@
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(1, 1fr);
     margin-left: 19px;
-    margin-right:19px;
-    margin-top:36px;
+    margin-right: 19px;
+    margin-top: 36px;
   }
 }

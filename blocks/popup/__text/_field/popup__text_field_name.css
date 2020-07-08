@@ -1,8 +1,8 @@
 .popup__text_field_name{
-  margin-top:54px;
+  margin-top: 54px;
 }
 @media screen and (max-width: 600px) {
   .popup__text_field_name{
-    margin-top:30px;
+    margin-top: 30px;
   }
 }
