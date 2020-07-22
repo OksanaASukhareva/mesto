@@ -1,12 +1,13 @@
-.elements__vector{
-  color: #FFFFFF;  
-  max-height: 18px;
+.elements__vector{ 
+  background-color: transparent;
+  height: 18px;
+  width:21px;
   display: block;
   margin-left: 5%;
   border: none;
-  background-color: transparent;
+  background-image: url('../../../images/like-button.svg');  
   padding: 0px;
-  cursor: pointer;
+  cursor: pointer;  
 }
 .elements__vector:hover{
   opacity: 0.6;

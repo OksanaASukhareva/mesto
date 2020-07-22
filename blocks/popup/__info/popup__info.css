@@ -4,3 +4,9 @@
   margin-left: 36px;
   margin-right: 36px;
 }
+@media screen and (max-width: 600px) {
+  .popup__info{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

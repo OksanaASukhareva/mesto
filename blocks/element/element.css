@@ -1,3 +1,4 @@
+@import url(./__trashbin/element__trashbin.css);
 .element{
   max-width: 100%;
   max-height: 361px;
@@ -9,4 +10,3 @@
   white-space: nowrap;
   overflow: hidden;
 }
-    

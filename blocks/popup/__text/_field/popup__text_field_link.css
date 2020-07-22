@@ -1,0 +1,10 @@
+.popup__text_field_link{
+  margin-top:30px;
+  }
+
+@media screen and (max-width: 600px) {
+  .popup__text_field_link{
+    margin-top: 20px;
+  }
+}
+  

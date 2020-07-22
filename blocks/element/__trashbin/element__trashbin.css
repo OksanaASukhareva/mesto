@@ -1,0 +1,15 @@
+.element__trashbin{
+    position:absolute;
+    top: 18px;
+    right:15px;
+    background:transparent;
+    cursor: pointer;
+    border:none;
+}
+.element__trashbin:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  .element__trashbin:focus{
+    outline: none;
+  }
